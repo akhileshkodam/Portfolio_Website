@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+}
+li{
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    padding: 5px;
+}
+li a:hover{
+   text-decoration: underline;
+   color: rgb(54, 32, 178);
+   transition: 0.5s ease-in-out;
+}
+.about h1,.about p,.about div,.about span{
+    padding: 10px 50px;
+}
+.about p{
+    line-height: 45px;
+    font-size: 1.3em;
+    opacity: 0.8;
+}
+.about button{
+    margin: 25px 15px;
+}
+.about div img{
+    cursor: pointer;
+    padding: 5px;
+}
+.about div img:hover{
+    opacity: 0.7;
+    transition: 0.3s ease-in;
+}
+.skills{
+    margin: 20px 0 20px 50px;
+    color:darkcyan;
+    text-decoration:underline;
+}
+.skills1 div{
+    margin: 30px 30px;
+    padding: 20px;
+    text-align: center;
+    border: 1px;
+    border-radius: 15px;
+    border-style: outset;
+    box-shadow: 5px 10px 18px #efe4e4;
+    cursor: pointer;
+    
+}
+.skills1 div:hover{
+    border-style: inset;
+}
+.skills1 .one{
+    margin-left: 80px;
+}
+.prof{
+    margin: 40px 50px 20px 50px;
+}
+.bars{
+    margin: 30px 80px;
+
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+#span{
+    margin: 30px;
+    font-size: 0.9em;
+    font-style: italic;
+}
+.span{
+    font-size: 1.1em;
+    margin-top: 20px;
+}
+.span:hover{
+    text-decoration: underline;
+}
+.p-achie{
+    margin-left: 60px;
+}
+.contact{
+    margin: 20px 50px;
+}
+.contact div img{
+    cursor: pointer;
+}
+.contact div img:hover{
+    opacity: 0.7;
+    transition: 0.5s ease-in;
+}
+.img1{
+    border: 1px solid rgb(22, 21, 15);
+    border-radius: 50%;
+    box-shadow: 5px 10px 18px #efe4e4;
+    cursor: pointer;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(152, 20, 20);
+}
+
